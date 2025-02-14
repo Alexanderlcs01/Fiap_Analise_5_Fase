@@ -5,6 +5,4 @@ seaborn
 matplotlib
 scikit-learn
 xgboost
-XGBClassifier
-sklearn.preprocessing
 streamlit_option_menu
