@@ -15,7 +15,7 @@ from sklearn.preprocessing import LabelEncoder
 from streamlit_option_menu import option_menu
 
 # Configurações gerais da pagina do streamlit
-st.set_page_config(layout="centered", page_title="Análise do Preço do Petróleo")
+st.set_page_config(layout="centered", page_title="Passos Mágicos")
 
 # Carregando dados
 dados = pd.read_csv('alunos_merged.csv', sep=',')
