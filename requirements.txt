@@ -6,7 +6,7 @@ matplotlib
 sklearn.tree
 sklearn.model_selection
 sklearn.metrics
-xgboost as xgb
+xgboost
 XGBClassifier
 sklearn.preprocessing
 streamlit_option_menu
