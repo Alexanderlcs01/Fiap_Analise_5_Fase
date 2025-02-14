@@ -3,9 +3,7 @@ pandas
 numpy
 seaborn
 matplotlib
-sklearn.tree
-sklearn.model_selection
-sklearn.metrics
+scikit-learn
 xgboost
 XGBClassifier
 sklearn.preprocessing
