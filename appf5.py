@@ -18,7 +18,7 @@ from streamlit_option_menu import option_menu
 st.set_page_config(layout="centered", page_title="Análise do Preço do Petróleo")
 
 # Carregando dados
-dados = pd.read_csv('C:/Users/Lucas/Documents/Projetos/alunos_merged.csv', sep=',')
+dados = pd.read_csv('alunos_merged.csv', sep=',')
 # Como boa prática, para não interferir na base de dados original, foi criado um novo DataFrame chamado db, apenas copiando a base original, para que possamos trabalhar
 db = dados
 # Pelo .info() duas linhas acima, vimos que váris colunas que deveriam ser números inteiros ou números float estão classificadas como objetos, portanto precisamos corrigir seus formatos
